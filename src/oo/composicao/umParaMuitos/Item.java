@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.composicao.umParaMuitos;
 
 public class Item {
 	
