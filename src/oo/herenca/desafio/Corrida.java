@@ -11,14 +11,14 @@ public class Corrida {
 	System.out.println("Velocidade inicial do Uno: " + uno.velocidadeAtual);
 	System.out.println("Velocidade inicial do Gol: " + gol.velocidadeAtual);
 	
-	uno.acelerar(uno);
-	gol.acelerar(gol);
+	uno.acelerar();
+	gol.acelerar();
 	
 	System.out.println("Velocidade atual do Uno: " + uno.velocidadeAtual);
 	System.out.println("Velocidade atual do Gol: " + gol.velocidadeAtual);
 	
-	uno.frear(uno);
-	gol.frear(gol);
+	uno.frear();
+	gol.frear();
 	
 	System.out.println("Velocidade do Uno apos frear: " + uno.velocidadeAtual);
 	System.out.println("Velocidade do Gol apos frear: " + gol.velocidadeAtual);

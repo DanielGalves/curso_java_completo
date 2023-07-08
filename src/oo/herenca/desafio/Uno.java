@@ -1,11 +1,19 @@
 package oo.herenca.desafio;
 
 public class Uno extends Carro {
-
 	
-int acelerar(Carro acelerador) {		
-		velocidadeAtual += 15;		
-		return velocidadeAtual;
+	Uno(){
+		this(300);		
 	}
+
+	Uno(int velocidadeMaxima){
+		super(velocidadeMaxima);
+		delta = 15;
+	}
+	
+	//void acelerar(Carro acelerador) {		
+	//	velocidadeAtual += 15;		
+		
+	//}
 	
 }

@@ -1,6 +1,11 @@
 package oo.herenca;
 
 public class Monstro extends Jogador{
+	
+	
+	Monstro(){
+		super(0,0);
+	}
 
 	boolean atacar(Jogador oponente) {
 		int deltaX = Math.abs(x - oponente.x);

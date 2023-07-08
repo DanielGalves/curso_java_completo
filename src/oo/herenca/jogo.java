@@ -4,10 +4,8 @@ public class jogo {
 	
 	public static void main(String args[]) {
 		
-		Heroi heroi = new Heroi();
-		heroi.x = 20;
-		heroi.y = 10;
-		
+		Heroi heroi = new Heroi(20,10);
+				
 		Monstro monstro = new Monstro();
 		monstro.x = 20;
 		monstro.y = 11;
