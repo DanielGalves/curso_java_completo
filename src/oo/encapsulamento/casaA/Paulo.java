@@ -9,7 +9,7 @@ public class Paulo {
 		
 		//Somente o atributo "segredo" nao pode ser acessado pois esta com visibilidade private
 		//os demais podem ser acessados por Paulo pois Peulo poertence ao mesmo pacote que Ana
-		System.out.println(esposa.segredo);
+		//System.out.println(esposa.segredo);
 		
 		System.out.println(esposa.facoDentroDeCasa);
 		System.out.println(esposa.formaDefalar);

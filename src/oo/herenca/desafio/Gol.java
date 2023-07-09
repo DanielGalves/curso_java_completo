@@ -2,7 +2,7 @@ package oo.herenca.desafio;
 
 public class Gol extends Carro{
 	
-	Gol(){
+	public Gol(){
 		super(220);
 	}
 

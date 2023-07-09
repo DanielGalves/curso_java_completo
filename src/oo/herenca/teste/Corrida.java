@@ -1,4 +1,8 @@
-package oo.herenca.desafio;
+package oo.herenca.teste;
+
+import oo.herenca.desafio.Carro;
+import oo.herenca.desafio.Gol;
+import oo.herenca.desafio.Uno;
 
 public class Corrida {
 	

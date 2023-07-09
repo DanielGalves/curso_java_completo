@@ -1,4 +1,7 @@
-package oo.herenca;
+package oo.herenca.teste;
+
+import oo.herenca.Heroi;
+import oo.herenca.Monstro;
 
 public class jogo {
 	

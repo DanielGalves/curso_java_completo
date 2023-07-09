@@ -3,19 +3,19 @@ package oo.herenca.desafio;
 public class Carro {
 	
 	final int VELOCIDADE_MAXIMA;
-	int velocidadeAtual;
-	int delta = 5;
+	public int velocidadeAtual;
+	public int delta = 5;
 	
-	Carro(){
+	public Carro(){
 		this(0);
 	}
 	
-	Carro(int velocidadeMaxima){
+	public Carro(int velocidadeMaxima){
 		VELOCIDADE_MAXIMA = velocidadeMaxima;
 	}
 	
 	
-	void acelerar() {
+	public void acelerar() {
 		if((velocidadeAtual + delta) > VELOCIDADE_MAXIMA) {
 			
 			velocidadeAtual = VELOCIDADE_MAXIMA;
@@ -28,7 +28,7 @@ public class Carro {
 	}
 	
 	
-	void frear() {
+	public void frear() {
 		
 		if (velocidadeAtual > 5) {
 		

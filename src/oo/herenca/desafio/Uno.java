@@ -2,11 +2,11 @@ package oo.herenca.desafio;
 
 public class Uno extends Carro {
 	
-	Uno(){
+	public Uno(){
 		this(300);		
 	}
 
-	Uno(int velocidadeMaxima){
+	public Uno(int velocidadeMaxima){
 		super(velocidadeMaxima);
 		delta = 15;
 	}
