@@ -36,14 +36,13 @@ public class Jogador {
 	public boolean andar(Direcao direcao) {
 		
 		switch(direcao) {
-		case NORTE: y--; break;
-		case LESTE: x++; break;
-		case SUL: y++; break;
-		case OESTE: x--; break;
+			case NORTE: y--; break;
+			case LESTE: x++; break;
+			case SUL: y++; break;
+			case OESTE: x--; break;
 		}
 		
-		return true;
-		
-		
+			return true;
+				
 	}
 }
