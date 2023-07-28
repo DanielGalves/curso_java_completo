@@ -3,11 +3,12 @@ package oo.encapsulamento;
 public class Pessoa {
 	
 	private String nome;
+	private String sobrenome;
 	private int idade;
 	
-	public Pessoa (String nome,int idade ) {
+	public Pessoa (String nome,String sobrenome,int idade ) {
 		setIdade(idade);
-		
+		setSobrenome(sobrenome);
 		setNome(nome);
 	}
 	
@@ -22,6 +23,18 @@ public class Pessoa {
 		return idade;
 	}
 	
+	public String getSobrenome() {
+		return sobrenome;
+	}
+	
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
+	}
+	
+	public String getNomeCompleto() {
+		return getNome() + " " + getSobrenome();
+	}
+	
 	public String getNome() {
 		return nome;
 	}
@@ -31,6 +44,6 @@ public class Pessoa {
 	}
 	
 	public String toString() {
-		return "Olá eu sou " + getNome() + " e tenho  " + getIdade() + " anos";
+		return "Olá eu sou " + getNomeCompleto() + " e tenho  " + getIdade() + " anos";
 	}
 }
