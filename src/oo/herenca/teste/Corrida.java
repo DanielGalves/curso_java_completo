@@ -27,8 +27,16 @@ public class Corrida {
 	System.out.println("Velocidade do Uno apos frear: " + uno.velocidadeAtual);
 	System.out.println("Velocidade do Gol apos frear: " + gol.velocidadeAtual);
 	
+	uno.ligarTurbo();
+	uno.acelerar();
+	System.out.println("Velocidade atual do Uno apos ligar o turbo: " + uno.velocidadeAtual);
 	
+	uno.frear();
+	System.out.println("Velocidade do Uno apos frear sem desligar o turbo: " + uno.velocidadeAtual);
 	
+	uno.desligarTurbo();
+	uno.frear();
+	System.out.println("Velocidade do Uno apos frear apos desligar o turbo: " + uno.velocidadeAtual);
 	
 	
 	}
