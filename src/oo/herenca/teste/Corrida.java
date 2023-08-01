@@ -37,7 +37,7 @@ public class Corrida {
 	uno.desligarTurbo();
 	uno.frear();
 	System.out.println("Velocidade do Uno apos frear apos desligar o turbo: " + uno.velocidadeAtual);
-	
+	System.out.println(uno.velocidadeDoAr());
 	
 	}
 
