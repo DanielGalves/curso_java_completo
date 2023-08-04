@@ -7,6 +7,8 @@ public class CalculoTeste2 {
 		Calculo calc = (x , y) -> { return x + y; };
 		System.out.println(calc.executar(2,3));
 		
+		
+		//forma otimizada para criar função lambda
 		calc = (x, y) -> x * y;
 		System.out.println(calc.executar(2,3));
 	}
