@@ -11,6 +11,9 @@ public class CalculoTeste2 {
 		//forma otimizada para criar função lambda
 		calc = (x, y) -> x * y;
 		System.out.println(calc.executar(2,3));
+		
+		System.out.println(calc.legal());
+		System.out.println(Calculo.muitoLegal());
 	}
 
 }
