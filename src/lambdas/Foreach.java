@@ -15,7 +15,10 @@ public class Foreach {
 	
 		System.out.println("\nLambda #01...");
 		aprovados.forEach((nome) -> {System.out.println(nome + "!!!");});
-	
+		
+		//forma simplificada do codigo anterior
+		System.out.println("\nLambda #02...");
+		aprovados.forEach(nome -> System.out.println(nome + "!!!"));
 	
 	}
 }
