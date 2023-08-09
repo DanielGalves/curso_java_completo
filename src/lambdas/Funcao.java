@@ -10,12 +10,15 @@ public class Funcao {
 				numero -> numero % 2 ==0 ?"Par" : "Ímpar";
 		System.out.println(parOuImpar.apply(32));
 		
-		Function<String, String> empolgado = 
-				valor -> valor + "!!!";
+		
 		Function<String, String> oResultadoE =
 				valor -> "O resultado é: " + valor;
-		
-		
+				
+		Function<String, String> empolgado = 
+				valor -> valor + "!!!";
+				
+		Function<String, String> duvida =
+				valor ->valor + "???";
 				
 		
 		String resultadoFinal = parOuImpar
@@ -23,6 +26,12 @@ public class Funcao {
 				.andThen(empolgado)
 				.apply(33);
 		System.out.println(resultadoFinal);
+		
+		String resultadoFinal2 = parOuImpar
+				.andThen(oResultadoE)
+				.andThen(duvida)
+				.apply(32);
+		System.out.println(resultadoFinal2);
 				
 		
 	}
